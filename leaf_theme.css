@@ -668,7 +668,7 @@
 #app-mount .emptyCard__7e549 .section__00943,
 #app-mount .wrapper__00943 .inset_bf1984,
 #app-mount .wrapper__00943 .section__00943 {
-    background-color: var(--backgroundCode) !important;
+    background-color: var(--backgroundColor01) !important;
     box-shadow: 0 4px 5px -2px rgba(0, 0, 0, .3)
 }
 
@@ -3831,7 +3831,7 @@
 /*profiles in dm \ */
 .overlay_c0bea0 {background-color: rgba(235, 61, 61, 0.3);}
 .outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {
- background-color: #798576;}
+ background-color: #4f574e;}
 
 
 /* SoundBoard */
@@ -4122,4 +4122,9 @@ color: var(--mainColor);
 /* Nitro Ending Date Pill */
 .premiumPillText__9f7e5.premiumPillTextTier2__9f7e5 {
     color: var(--premium-tier-2-purple-for-gradients);
+}
+
+
+.textContent__00943 {
+    color: #eefdd5 !important;
 }
