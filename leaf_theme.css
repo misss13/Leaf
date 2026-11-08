@@ -4135,3 +4135,107 @@ color: var(--mainColor);
     color: #eefdd5 !important;
 }
 
+/* =====================================================================
+   NOCTURNAL – no oczywiście że zjebali kurwa (11.2026)
+   ===================================================================== */
+:root {
+    --backgrounColor02: var(--backgroundColor02);
+}
+
+.theme-dark,
+.theme-darker,
+.theme-midnight,
+.theme-amoled,
+.visual-refresh,
+.custom-theme-background,
+.theme-dark .custom-theme-background {
+    --background-primary: var(--backgroundColor02) !important;
+    --background-secondary: var(--backgroundColor02) !important;
+    --background-secondary-alt: var(--backgroundColor02) !important;
+    --background-tertiary: var(--backgroundColor02) !important;
+    --background-mobile-primary: var(--backgroundColor02) !important;
+    --background-mobile-secondary: var(--backgroundColor02) !important;
+    --background-floating: var(--backgroundColor01) !important;
+    --background-accent: var(--mainColor) !important;
+    --modal-background: var(--backgroundColor02) !important;
+    --modal-footer-background: var(--backgroundColor02) !important;
+    --chat-background-default: var(--backgroundColor02) !important;
+
+    /* tła główne – nowe tokeny (visual refresh) */
+    --background-base-low: var(--backgroundColor02) !important;
+    --background-surface-higher: var(--backgroundColor01) !important;
+    --background-surface-overlay: var(--backgroundColor01) !important;
+    --background-surface-overlay-tmp: var(--backgroundColor01) !important;
+    --background-mod-strong: var(--backgroundColor01) !important;
+    --bg-base-primary: var(--backgroundColor02) !important;
+    --bg-base-secondary: var(--backgroundColor02) !important;
+    --bg-base-tertiary: var(--backgroundColor02) !important;
+    --bg-surface-raised: var(--backgroundColor01) !important;
+    --bg-surface-overlay: var(--backgroundColor01) !important;
+    --bg-overlay-app-frame: var(--backgroundColor02) !important;
+    --bg-overlay-chat: var(--backgroundColor02) !important;
+    --bg-overlay-1: var(--backgroundColor02) !important;
+    --bg-overlay-2: var(--backgroundColor02) !important;
+    --bg-overlay-3: var(--backgroundColor02) !important;
+    --bg-overlay-4: var(--backgroundColor01) !important;
+    --bg-overlay-5: var(--backgroundColor01) !important;
+    --bg-overlay-6: var(--backgroundColor01) !important;
+
+    --background-modifier-hover: var(--backgroundName) !important;
+    --background-modifier-active: var(--backgroundColor01) !important;
+    --background-modifier-selected: var(--backgroundColor01) !important;
+    --background-message-hover: var(--backgroundColor01) !important;
+
+    --deprecated-card-bg: var(--backgroundColor01) !important;
+    --deprecated-card-editable-bg: var(--backgroundColor01) !important;
+    --input-background: var(--backgroundColor01) !important;
+    --deprecated-text-input-bg: var(--backgroundColor01) !important;
+    --deprecated-text-input-border: transparent !important;
+    --channeltextarea-background: var(--backgroundColor01) !important;
+    --focus-primary: var(--mainColor) !important;
+
+    --brand-500: var(--mainColor) !important;
+    --brand-560: var(--gradientColor01) !important;
+    --brand-600: var(--gradientColor01) !important;
+    --brand-experiment: var(--mainColor) !important;
+    --brand-experiment-500: var(--mainColor) !important;
+    --brand-experiment-560: var(--gradientColor01) !important;
+    --brand-experiment-600: var(--gradientColor01) !important;
+    --bg-brand: var(--mainColor) !important;
+    --control-brand-foreground: var(--mainColor) !important;
+    --control-brand-foreground-new: var(--mainColor) !important;
+    --button-filled-brand-background: var(--mainColor) !important;
+    --button-filled-brand-background-hover: var(--gradientColor01) !important;
+    --button-filled-brand-background-active: var(--gradientColor01) !important;
+    --text-link: var(--linkcolor) !important;
+    --text-brand: var(--mainColor) !important;
+
+    /* scrollbary */
+    --scrollbar-thin-thumb: var(--backgroundCode) !important;
+    --scrollbar-auto-thumb: var(--backgroundCode) !important;
+    --scrollbar-auto-scrollbar-color-thumb: var(--backgroundCode) !important;
+    --scrollbar-thin-track: var(--backgroundColor02) !important;
+    --scrollbar-auto-track: var(--backgroundColor02) !important;
+    --scrollbar-auto-scrollbar-color-track: var(--backgroundColor02) !important;
+}
+
+#app-mount [class*="standardSidebarView"],
+#app-mount [class*="sidebarRegion"],
+#app-mount [class*="sidebarRegionScroller"],
+#app-mount [class*="contentRegion"],
+#app-mount [class*="contentRegionScroller"],
+#app-mount [class*="contentColumn"],
+#app-mount [class*="contentHeader_"],
+#app-mount [class*="privateChannels_"],
+#app-mount [class*="nowPlayingColumn"],
+#app-mount [class*="applicationStore_"],
+#app-mount [class*="pageWrapper_"],
+#app-mount [class*="keyboardShortcutsModal"],
+#app-mount [class*="emptyPreview_"],
+#app-mount [class*="titleBar_"],
+#app-mount [class*="videoWrapper_"],
+#app-mount [class*="threadSidebar"] {
+    background: var(--backgroundColor02) !important;
+    border: none !important;
+}
+
